@@ -3,6 +3,10 @@ import joblib
 
 app = FastAPI(title="Text Intelligence API")
 
+@app.get("/")
+def home():
+    return {"message": "Text Intelligence API is running"}
+
 # Load model
 spam_model = joblib.load("spam_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
