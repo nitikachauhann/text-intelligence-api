@@ -163,9 +163,7 @@ docker run -p 8000:8000 text-api
 
 ## 🌐 Deployment
 
-The application is deployed on cloud platforms and can be accessed publicly:
-
-👉 **Live API:** *(Add your Render link here)*
+The application can be deployed on cloud platforms.
 
 ---
 
